@@ -42,7 +42,7 @@ command -v $app >/dev/null 2>&1 [ $? ] &&  printf "%-50s : [Installed]\n" $app |
 echo -e "\n01. Installing command line apps using brew"
 echo "--------------------------------------------"
 # List of comma separated applications (without any spaces)
-terminal_apps="zsh"
+terminal_apps="zsh,git,tree,jq,httpie,fzf"
 install_brew_applications $terminal_apps "n"
 
 
