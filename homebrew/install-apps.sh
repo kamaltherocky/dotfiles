@@ -2,6 +2,7 @@
 
 ###### Functions ######
 
+## Note: The below function is archived as we will start using the Brew Bundle feature along with a BrewFile
 install_brew_applications()
 {
     apps_list=$1
@@ -37,13 +38,15 @@ echo "--------------------------------------"
 app="brew"
 command -v $app >/dev/null 2>&1 [ $? ] &&  printf "%-50s : [Installed]\n" $app || { printf "%-50s : [Installing...]\n" $app; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"; }
 
-
 # Install the list of command line applications
-echo -e "\n01. Installing command line apps using brew"
+echo -e "\n01. Installing command line apps and mac OS applications using brew / cask"
 echo "--------------------------------------------"
+brew bundle --file=~/.dotfiles/homebrew/Brewfile
+
+
 # List of comma separated applications (without any spaces)
-terminal_apps="zsh,git,tree,jq,httpie,fzf"
-install_brew_applications $terminal_apps "n"
+# terminal_apps="zsh,git,tree,jq,httpie,fzf,gh"
+# install_brew_applications $terminal_apps "n"
 
 
 # Install the list of Mac OS X applications as Cask
