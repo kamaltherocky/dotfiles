@@ -1,0 +1,8 @@
+# brew install applications
+brew "zsh"
+brew "git"
+brew "tree"
+brew "jq"
+brew "httpie"
+brew "fzf"
+brew "gh"
