@@ -29,7 +29,7 @@ install_brew_applications()
 
 ##### Main - Start #####
 
-# Install XCode tools
+# Install XCode tools - One Time activity
 # xcode-select --install
 
 # Install homebrew - Package Manager
@@ -38,10 +38,12 @@ echo "--------------------------------------"
 app="brew"
 command -v $app >/dev/null 2>&1 [ $? ] &&  printf "%-50s : [Installed]\n" $app || { printf "%-50s : [Installing...]\n" $app; /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"; }
 
-# Install the list of command line applications
-echo -e "\n01. Installing command line apps and mac OS applications using brew / cask"
-echo "--------------------------------------------"
+# Install the list of command line applications and mac OS applications using brew / cask
+echo -e "\n01. Installing command line apps and mac OS applications using bundle (brew / cask)"
+echo "----------------------------------------------------------------------------------------"
 brew bundle --file=~/.dotfiles/homebrew/Brewfile
+
+##### Main - End #####
 
 
 # List of comma separated applications (without any spaces)
@@ -50,11 +52,11 @@ brew bundle --file=~/.dotfiles/homebrew/Brewfile
 
 
 # Install the list of Mac OS X applications as Cask
-echo -e "\n02. Installing Mac OS X apps using brew cask"
-echo "---------------------------------------------"
+# echo -e "\n02. Installing Mac OS X apps using brew cask"
+#echo "---------------------------------------------"
 # List of comma separated applications (without any spaces)
-cask_apps="iterm2,visual-studio-code"
-install_brew_applications $cask_apps "y"
+#cask_apps="iterm2,visual-studio-code"
+#install_brew_applications $cask_apps "y"
 
 echo -e "\n"
 

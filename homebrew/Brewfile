@@ -6,3 +6,18 @@ brew "jq"
 brew "httpie"
 brew "fzf"
 brew "gh"
+brew "awscli"
+brew "azure-cli"
+
+
+# cask install applications
+
+cask "google-chrome"
+cask "iterm2"
+cask "appcleaner"
+cask "1password"
+cask "visual-studio-code"
+cask "warp"
+cask "google-cloud-sdk"
+cask "zoom"
+cask "obsidian"
