@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Run the pre-hook before the setup
-~/.dotfiles/scripts/pre-hook.sh
+#~/.dotfiles/scripts/pre-hook.sh
 
 #00. Run the Brew scripts
 ~/.dotfiles/homebrew/setup.sh

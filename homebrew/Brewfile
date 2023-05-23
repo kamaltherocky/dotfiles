@@ -1,23 +1,32 @@
+#-----------------------------#
 # brew install applications
-brew "zsh"
-brew "git"
-brew "tree"
-brew "jq"
-brew "httpie"
-brew "fzf"
-brew "gh"
-brew "awscli"
-brew "azure-cli"
+#-----------------------------#
 
+## CLI tools
+brew "zsh"                      # Shell
+brew "git"                      # Source Control
+brew "tree"                     # CLI tool
+brew "jq"                       # CLI tool
+brew "httpie"                   # CLI tool
+brew "fzf"                      # CLI tool
+brew "gh"                       # CLI tool
+brew "awscli"                   # AWS Cloud CLI
+brew "azure-cli"                # Azure Cloud CLI
+brew "node"                     # Language runtime
 
+#-----------------------------#
 # cask install applications
+#-----------------------------#
 
-cask "google-chrome"
-cask "iterm2"
-cask "appcleaner"
-cask "1password"
-cask "visual-studio-code"
-cask "warp"
-cask "google-cloud-sdk"
-cask "zoom"
-cask "obsidian"
+## Mac Development Tools
+cask "google-chrome"            # Browser
+cask "iterm2"                   # Terminal
+cask "warp"                     # Terminal
+cask "appcleaner"               # Installer
+cask "1password"                # Secret Manager
+cask "visual-studio-code"       # Editor
+cask "zoom"                     # Video Conference
+cask "webex"                    # Video Conference
+cask "obsidian"                 # Notes
+cask "microsoft-outlook"        # Email Client
+cask "google-cloud-sdk"         # Google Cloud
