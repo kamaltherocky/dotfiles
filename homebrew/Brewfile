@@ -7,12 +7,18 @@ brew "zsh"                      # Shell
 brew "git"                      # Source Control
 brew "tree"                     # CLI tool
 brew "jq"                       # CLI tool
-brew "httpie"                   # CLI tool
+brew "httpie"                   # HTTP
 brew "fzf"                      # CLI tool
 brew "gh"                       # CLI tool
 brew "awscli"                   # AWS Cloud CLI
 brew "azure-cli"                # Azure Cloud CLI
 brew "node"                     # Language runtime
+brew "fzf"                      # Fuzzy Finder
+brew "z"                        # CLI tool
+brew "zsh-completions"          # zsh
+brew "zsh-syntax-highlighting"  # zsh
+brew "wget"                     # HTTP
+
 
 #-----------------------------#
 # cask install applications
@@ -30,3 +36,4 @@ cask "webex"                    # Video Conference
 cask "obsidian"                 # Notes
 cask "microsoft-outlook"        # Email Client
 cask "google-cloud-sdk"         # Google Cloud
+cask "xmind"                    # Mind Map tool
