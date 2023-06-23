@@ -1,4 +1,10 @@
 #-----------------------------#
+# brew Tap
+#-----------------------------#
+tap "turbot/tap"
+
+
+#-----------------------------#
 # brew install applications
 #-----------------------------#
 
@@ -18,6 +24,11 @@ brew "z"                        # CLI tool
 brew "zsh-completions"          # zsh
 brew "zsh-syntax-highlighting"  # zsh
 brew "wget"                     # HTTP
+brew "golang"                   # Go Lang
+brew "protobuf"                 # Protobuf
+brew "helm"                     # K8s Helm
+
+brew "turbot/tap/steampipe"     # Cloud Query Tool from Custom Tap
 
 
 #-----------------------------#
@@ -26,6 +37,7 @@ brew "wget"                     # HTTP
 
 ## Mac Development Tools
 cask "google-chrome"            # Browser
+cask "google-drive"             # Google Drive
 cask "iterm2"                   # Terminal
 cask "warp"                     # Terminal
 cask "appcleaner"               # Installer
@@ -37,3 +49,4 @@ cask "obsidian"                 # Notes
 cask "microsoft-outlook"        # Email Client
 cask "google-cloud-sdk"         # Google Cloud
 cask "xmind"                    # Mind Map tool
+cask "docker"                   # Docker Desktop with K8s
