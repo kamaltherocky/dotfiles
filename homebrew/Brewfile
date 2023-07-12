@@ -27,6 +27,9 @@ brew "wget"                     # HTTP
 brew "golang"                   # Go Lang
 brew "protobuf"                 # Protobuf
 brew "helm"                     # K8s Helm
+brew "postgresql@14"            # Postgres DB
+brew "pyenv"                    # python environment
+brew "pyenv-virtualenv"         # python virtualenv
 
 brew "turbot/tap/steampipe"     # Cloud Query Tool from Custom Tap
 
@@ -50,3 +53,6 @@ cask "microsoft-outlook"        # Email Client
 cask "google-cloud-sdk"         # Google Cloud
 cask "xmind"                    # Mind Map tool
 cask "docker"                   # Docker Desktop with K8s
+cask "dbeaver-community"        # GUI SQL Editor
+cask "postman"                  # Postman ResT API
+cask "postman-cli"              # Postman CLI
