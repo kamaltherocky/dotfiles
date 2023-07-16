@@ -56,3 +56,4 @@ cask "docker"                   # Docker Desktop with K8s
 cask "dbeaver-community"        # GUI SQL Editor
 cask "postman"                  # Postman ResT API
 cask "postman-cli"              # Postman CLI
+cask "discord"                  # Discord Chat
