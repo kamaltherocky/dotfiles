@@ -2,7 +2,7 @@
 # brew Tap
 #-----------------------------#
 tap "turbot/tap"
-
+tap "hashicorp/tap"
 
 #-----------------------------#
 # brew install applications
@@ -30,8 +30,10 @@ brew "helm"                     # K8s Helm
 brew "postgresql@14"            # Postgres DB
 brew "pyenv"                    # python environment
 brew "pyenv-virtualenv"         # python virtualenv
+brew "gnupg"                    # GNU Pretty Good Privacy
 
 brew "turbot/tap/steampipe"     # Cloud Query Tool from Custom Tap
+brew "hashicorp/tap/terraform"  # Hashicorp Terraform
 
 
 #-----------------------------#
@@ -57,3 +59,4 @@ cask "dbeaver-community"        # GUI SQL Editor
 cask "postman"                  # Postman ResT API
 cask "postman-cli"              # Postman CLI
 cask "discord"                  # Discord Chat
+cask "slack"                    # Slack
