@@ -31,6 +31,7 @@ brew "postgresql@14"            # Postgres DB
 brew "pyenv"                    # python environment
 brew "pyenv-virtualenv"         # python virtualenv
 brew "gnupg"                    # GNU Pretty Good Privacy
+brew "minikube"                 # Install minikube
 
 brew "turbot/tap/steampipe"     # Cloud Query Tool from Custom Tap
 brew "hashicorp/tap/terraform"  # Hashicorp Terraform
